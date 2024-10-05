@@ -165,21 +165,35 @@ export const Bio = {
       github: "https://github.com/Chiragralhan/Code-editor-using-Reactjs",
 
     },
+
     {
-      id: 1,
-      title: "Slot Machine Game",
+        id: 1,
+        title: "Slot Machine Game",
+  
+        description:
+          "The code editor for your JavaScript-based slot machine game allows real-time coding and testing. You can quickly build and refine game mechanics like spinning reels and win conditions, with instant feedback on how the game functions.",
+        tags: [
+          "JavaScript",
+        ],
+  
+        github: "https://github.com/Chiragralhan/Slot-machine-project",
+  
+      },
+    {
+      id: 2,
+      title: "Expense Tracker",
 
       description:
-        "The code editor for your JavaScript-based slot machine game allows real-time coding and testing. You can quickly build and refine game mechanics like spinning reels and win conditions, with instant feedback on how the game functions.",
+        "The React Expense Tracker is a web application that helps users manage and track their expenses efficiently. Built with React, it allows users to input, categorize, and visualize their spending habits through intuitive charts and summaries. The application features a user-friendly interface, enabling seamless navigation and data entry, making it a practical tool for personal finance management.",
       tags: [
-        "JavaScript",
+        "ReactJs","Material UI",
       ],
 
-      github: "https://github.com/Chiragralhan/Slot-machine-project",
+      github: "https://github.com/Chiragralhan/Reactjs-Expense-tracker",
 
     },
     {
-      id: 2,
+      id: 3,
       title: "Github Profile Viewer",
 
       description:
@@ -192,7 +206,7 @@ export const Bio = {
      
     },
     {
-      id: 3,
+      id: 4,
       title: "Digital Clock",
 
       description:
@@ -204,10 +218,5 @@ export const Bio = {
     
   ];
   
-  export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
-  ];
+  
+  
